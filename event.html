@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Frontend Bucharest Meetup</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto+Mono" rel="stylesheet">
+<style type="text/css">
+:root {
+  --image-size: 360px;
+  --base-font-size: 16px;
+}
+@media (min-width: 1900px) {
+  :root {
+    --image-size: 720px;
+    --base-font-size: 32px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: var(--base-font-size);
+}
+
+.container {
+  display: flex;
+}
+
+.details {
+  margin-left: 4em;
+}
+
+img {
+  width: var(--image-size);
+  height: var(--image-size);
+}
+
+h1 {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 3em;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+  line-height: 1;
+}
+
+p {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background: black;
+  color: white;
+  padding: 1em;
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="logo.svg">
+      </div>
+      <div class="details">
+        <h1>Meetup #12</h1>
+        <h2>
+          GraphQL {<br/>
+          &nbsp;&nbsp;&nbsp;theory<br/>
+          &nbsp;&nbsp;&nbsp;practice<br/>
+          }
+        </h2>
+        <p>@TechHub Bucharest &mdash; 04.04 &mdash; 19:00</p>
+      </div>
+    </div>
+  </body>
+</html>
